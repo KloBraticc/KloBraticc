@@ -31,8 +31,9 @@ I enjoy building things that are fast, practical, and actually useful.
 ---
 
 ### 📫 Reach Me
-- GitHub: https://github.com/KloBraticc  
-*(More links coming soon)*
+- GitHub: https://github.com/KloBraticc
+- Youtube: https://www.youtube.com/@ThisBratic
+- Discord: braticlyyy
 
 ---
 
