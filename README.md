@@ -1,16 +1,40 @@
-## Hi there 👋
+## Hi there 👋 I'm Bratic
 
-<!--
-**KloBraticc/KloBraticc** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+I'm a **C# / .NET developer** focused on **Windows tooling, game launchers, and performance optimization**.  
+I enjoy building things that are fast, practical, and actually useful.
 
-Here are some ideas to get you started:
+---
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### 🔭 I’m Working On
+- **Voidstrap** Advanced Roblox launcher & performance tool with mods and blah idk
+
+---
+
+### 🌱 Currently Learning
+- **Python**
+- **Grammar** 💀
+
+---
+
+### 🛠 Tech Stack
+- **C# / .NET**
+- **WPF**
+
+---
+
+### 💬 Ask Me About
+- Roblox launchers & fast flags
+- Nvidia stuff & Nvidia fast flags
+- Pcs/Techy stuff love them fr
+- Debugging weird system issues
+
+---
+
+### 📫 Reach Me
+- GitHub: https://github.com/KloBraticc  
+*(More links coming soon)*
+
+---
+
+### ⚡ Fun Fact
+I build tools because existing ones annoy me.
