@@ -1,6 +1,6 @@
 ## Hi there 👋 I'm Bratic
 
-I'm a **C# / .NET developer** focused on **Windows tooling, game launchers, and performance optimization**.  
+I'm a **C# / .NET developer** focused on **game launchers, and performance optimization**.  
 I enjoy building things that are fast, practical, and actually useful.
 
 ---
