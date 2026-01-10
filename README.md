@@ -1,9 +1,9 @@
 ## Hi there 👋 I'm Bratic
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Touch+some+grass.)](https://git.io/typing-svg)
-
 I'm a **C# / .NET developer** focused on **game launchers, and performance optimization**.  
 I enjoy building things that are fast, practical, and actually useful.
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Touch+some+grass.)](https://git.io/typing-svg)
 
 ---
 
