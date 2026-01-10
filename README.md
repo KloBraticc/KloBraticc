@@ -8,7 +8,7 @@ I enjoy building things that are actually useful.
 ---
 
 ### 🔭 I’m Working On
-- **Voidstrap** Advanced Roblox launcher & performance tool with mods and blah idk
+- **Voidstrap** Advanced Roblox launcher & performance tool with mods and blah idk (Dont needa read all tis)
 
 ---
 
