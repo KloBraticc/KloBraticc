@@ -7,24 +7,24 @@ I enjoy building things that are actually useful.
 
 ---
 
-### 🔭 I’m Working On
+### I’m Working On
 - **Voidstrap** Advanced Roblox launcher & performance tool with mods and blah idk (Dont needa read all tis)
 
 ---
 
-### 🌱 Currently Learning
+### Currently Learning
 - **Python**
 - **Grammar** 💀
 
 ---
 
-### 🛠 Tech Stack
+### Tech Stack
 - **C# / .NET**
 - **WPF**
 
 ---
 
-### 💬 Ask Me About
+### Ask Me About
 - Roblox launchers & fast flags
 - Nvidia stuff & Nvidia fast flags
 - Pcs/Techy stuff love them fr
@@ -32,12 +32,12 @@ I enjoy building things that are actually useful.
 
 ---
 
-### 📫 Reach Me
+### Reach Me
 - GitHub: https://github.com/KloBraticc
 - Youtube: https://www.youtube.com/@ThisBratic
 - Discord: braticlyyy
 
 ---
 
-### ⚡ Fun Fact
+### Fun Fact
 I build tools because existing ones annoy me.
