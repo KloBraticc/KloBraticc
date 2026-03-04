@@ -1,9 +1,17 @@
-## Hi there 👋 I'm Bratic
+## I'm Bratic or Call me Breadtic as people do online idk.
 
-I'm a **C# / .NET developer** focused on **game launchers, and performance optimization**.  
-I enjoy building things that are actually useful.
+<div align="center">
+
+[![Yapperrr](https://img.shields.io/badge/Yapperrr-PRO%20YAPPER-5865F2?style=for-the-badge)](https://IYAPATON)
+[![Canes](https://img.shields.io/badge/I%20LOVE%20CANES-Yum%20YUMMM-5865F2?style=for-the-badge)](https://www.raisingcanes.com/home/)
+
+</div>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Touch+some+grass.)](https://git.io/typing-svg)
+
+---
+
+- #1 Rule **DONT** call me KloBratic idk why I chose "Klo", so dont ASK!!
 
 ---
 
