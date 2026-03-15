@@ -13,30 +13,9 @@
 
 - #1 Rule **DONT** call me KloBratic idk why I chose "Klo", so dont ASK!!
 
----
-
-### I’m Working On
-- **Voidstrap** Advanced Roblox launcher & performance tool with mods and blah idk (Dont needa read all tis)
-
----
-
 ### Currently Learning
 - **Python**
 - **Grammar** 💀
-
----
-
-### Tech Stack
-- **C# / .NET**
-- **WPF**
-
----
-
-### Ask Me About
-- Roblox launchers & fast flags
-- Nvidia stuff & Nvidia fast flags
-- Pcs/Techy stuff love them fr
-- Debugging weird system issues
 
 ---
 
