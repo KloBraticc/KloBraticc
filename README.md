@@ -28,3 +28,9 @@
 
 ### Fun Fact
 I build tools because existing ones annoy me.
+
+<h1 align="left"><b>Voidstrap</b></h1>
+
+<p align="left">
+<img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Untitled%20design%20(2)-Photoroom.png" alt="preview" width="30%"/>
+</p>
