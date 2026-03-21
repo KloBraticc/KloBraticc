@@ -54,7 +54,7 @@ I build tools because existing ones annoy me.
 
 </div>
 
-<div align="center">
+<div align="left">
   <img 
     src="https://github-readme-stats.vercel.app/api/top-langs?username=KloBraticc&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" 
     alt="Top Languages" 
