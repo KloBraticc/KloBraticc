@@ -4,7 +4,7 @@
 
 [![Yapperrr](https://img.shields.io/badge/Yapperrr-PRO%20YAPPER-5865F2?style=for-the-badge)](https://IYAPATON)
 [![Canes](https://img.shields.io/badge/I%20LOVE%20CANES-Yum%20YUMMM-5865F2?style=for-the-badge)](https://www.raisingcanes.com/home/)
-
+<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=KloBraticc&repo=KloBraticc&countColorcountColor&countColor=%5865F2"/>
 </div>
 
 [![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Touch+some+grass.)](https://git.io/typing-svg)
@@ -52,4 +52,11 @@ I build tools because existing ones annoy me.
   </tr>
 </table>
 
+</div>
+
+<div align="center">
+  <img 
+    src="https://github-readme-stats.vercel.app/api/top-langs?username=KloBraticc&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" 
+    alt="Top Languages" 
+  />
 </div>
