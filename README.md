@@ -29,8 +29,27 @@
 ### Fun Fact
 I build tools because existing ones annoy me.
 
-<h1 align="left"><b>Voidstrap</b></h1>
+<h1 align="left"><b>Work</b></h1>
 
-<p align="left">
-<img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Untitled%20design%20(2)-Photoroom.png" alt="preview" width="30%"/>
-</p>
+<div align="center">
+
+<table>
+  <tr>
+    <td>
+      <img src="https://github.com/KloBraticc/RandomMods/blob/main/work.png" alt="RiShade Screenshot 1" width="380" style="margin:5px;">
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Voidstrapweb.png" alt="RiShade Screenshot 2" width="380" style="margin:5px;">
+    </td>
+  </tr>
+  <tr>
+    <td>
+      <img src="https://raw.githubusercontent.com/KloBraticc/RiShade/main/Images/image3.png" alt="RiShade Screenshot 3" width="380" style="margin:5px;">
+    </td>
+    <td>
+      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Untitled%20design%20(2)-Photoroom.png" alt="RiShade Screenshot 4" width="380" style="margin:5px;">
+    </td>
+  </tr>
+</table>
+
+</div>
