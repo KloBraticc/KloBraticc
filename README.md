@@ -29,35 +29,17 @@
 ---
 
 ### Fun Fact
-I build tools because existing ones annoy me.
+I build tools because existing ones annoy me. yes im a bum
 
-<h1 align="left"><b>Work</b></h1>
-<div align="center">
-<table>
-  <tr>
-    <td>
-      <img src="https://github.com/KloBraticc/RandomMods/blob/main/work.png" alt="work" width="380" style="margin:5px;">
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Voidstrapweb.png" alt="Voidstrap" width="380" style="margin:5px;">
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <img src="https://raw.githubusercontent.com/KloBraticc/RiShade/main/Images/image3.png" alt="RiShade" width="380" style="margin:5px;">
-    </td>
-    <td>
-      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Untitled%20design%20(2)-Photoroom.png" alt="project" width="380" style="margin:5px;">
-    </td>
-  </tr>
-</table>
-</div>
+---
 
-<div align="left">
+<details>
+  <summary>Top Languages</summary>
+  <br>
   <a href="https://github.com/KloBraticc">
     <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KloBraticc&theme=chartreuse_dark" alt="Top Languages" />
   </a>
-</div>
+</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KloBraticc/KloBraticc/output/github-contribution-grid-snake-dark.svg">
