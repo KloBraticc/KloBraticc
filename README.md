@@ -1,13 +1,15 @@
-## I'm Bratic or Call me Breadtic as people do online idk.
-
 <div align="center">
 
-[![Yapperrr](https://img.shields.io/badge/Yapperrr-PRO%20YAPPER-5865F2?style=for-the-badge)](https://IYAPATON)
-[![Canes](https://img.shields.io/badge/I%20LOVE%20CANES-Yum%20YUMMM-5865F2?style=for-the-badge)](https://www.raisingcanes.com/home/)
-<img src="http://estruyf-github.azurewebsites.net/api/VisitorHit?user=KloBraticc&repo=KloBraticc&countColorcountColor&countColor=%5865F2"/>
-</div>
+## I'm Bratic, or Breadtic online idk.
 
-[![Typing SVG](https://readme-typing-svg.herokuapp.com?size=30&lines=Touch+some+grass.)](https://git.io/typing-svg)
+[![Yapperrr](https://img.shields.io/badge/Yapperrr-PRO%20YAPPER-5865F2?style=for-the-badge)](https://github.com/KloBraticc)
+[![Canes](https://img.shields.io/badge/I%20LOVE%20CANES-Yum%20YUMMM-5865F2?style=for-the-badge)](https://www.raisingcanes.com/home/)
+
+[![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Fira+Code&font_size=22&pause=1000&color=5865F2&center=true&vCenter=true&width=380&lines=Touch+some+grass.)](https://git.io/typing-svg)
+
+![Profile Views](https://komarev.com/ghpvc/?username=KloBraticc&color=5865F2&style=flat-square)
+
+</div>
 
 ---
 
@@ -30,33 +32,35 @@
 I build tools because existing ones annoy me.
 
 <h1 align="left"><b>Work</b></h1>
-
 <div align="center">
-
 <table>
   <tr>
     <td>
-      <img src="https://github.com/KloBraticc/RandomMods/blob/main/work.png" alt="RiShade Screenshot 1" width="380" style="margin:5px;">
+      <img src="https://github.com/KloBraticc/RandomMods/blob/main/work.png" alt="work" width="380" style="margin:5px;">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Voidstrapweb.png" alt="RiShade Screenshot 2" width="380" style="margin:5px;">
+      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Voidstrapweb.png" alt="Voidstrap" width="380" style="margin:5px;">
     </td>
   </tr>
   <tr>
     <td>
-      <img src="https://raw.githubusercontent.com/KloBraticc/RiShade/main/Images/image3.png" alt="RiShade Screenshot 3" width="380" style="margin:5px;">
+      <img src="https://raw.githubusercontent.com/KloBraticc/RiShade/main/Images/image3.png" alt="RiShade" width="380" style="margin:5px;">
     </td>
     <td>
-      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Untitled%20design%20(2)-Photoroom.png" alt="RiShade Screenshot 4" width="380" style="margin:5px;">
+      <img src="https://raw.githubusercontent.com/KloBraticc/RandomMods/main/Untitled%20design%20(2)-Photoroom.png" alt="project" width="380" style="margin:5px;">
     </td>
   </tr>
 </table>
-
 </div>
 
 <div align="left">
-  <img 
-    src="https://github-readme-stats.vercel.app/api/top-langs?username=KloBraticc&show_icons=true&locale=en&layout=compact&theme=chartreuse-dark" 
-    alt="Top Languages" 
-  />
+  <a href="https://github.com/KloBraticc">
+    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KloBraticc&theme=chartreuse_dark" alt="Top Languages" />
+  </a>
 </div>
+
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KloBraticc/KloBraticc/output/github-contribution-grid-snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/KloBraticc/KloBraticc/output/github-contribution-grid-snake.svg">
+  <img alt="snake eating my contributions gulp" src="https://raw.githubusercontent.com/KloBraticc/KloBraticc/output/github-contribution-grid-snake.svg">
+</picture>
