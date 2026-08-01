@@ -1,7 +1,5 @@
 <div align="center">
 
-## I'm Bratic, or Breadtic online idk.
-
 [![Yapperrr](https://img.shields.io/badge/Yapperrr-PRO%20YAPPER-5865F2?style=for-the-badge)](https://github.com/KloBraticc)
 [![Canes](https://img.shields.io/badge/I%20LOVE%20CANES-Yum%20YUMMM-5865F2?style=for-the-badge)](https://www.raisingcanes.com/home/)
 
@@ -11,15 +9,16 @@
 
 </div>
 
----
+#### 🐐 Goats
 
-- #1 Rule **DONT** call me KloBratic idk why I chose "Klo", so dont ASK!!
-
-### Currently Learning
-- **Python**
-- **Grammar** 💀
-
----
+<p align="left">
+  <a href="https://github.com/TheMallyGuy">
+    <img src="https://wsrv.nl/?url=github.com/TheMallyGuy.png&w=160&h=160&fit=cover&mask=circle"
+         alt="TheMallyGuy"
+         width="80"
+         height="80" />
+  </a>
+</p>
 
 ### Reach Me
 - GitHub: https://github.com/KloBraticc
@@ -32,14 +31,6 @@
 I build tools because existing ones annoy me. yes im a bum
 
 ---
-
-<details>
-  <summary>Top Languages</summary>
-  <br>
-  <a href="https://github.com/KloBraticc">
-    <img src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=KloBraticc&theme=chartreuse_dark" alt="Top Languages" />
-  </a>
-</details>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/KloBraticc/KloBraticc/output/github-contribution-grid-snake-dark.svg">
