@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="420" height="132" viewBox="0 0 420 132" role="img" aria-label="GitHub overview stats">
+<title>GitHub overview stats</title>
+<rect x="1" y="1" width="418" height="130" fill="#ffffff" stroke="#d0d7de"/>
+<text x="24" y="33" fill="#24292f" font-family="Arial, Helvetica, sans-serif" font-size="19" font-weight="700">GitHub</text>
+<path d="M140 54v58M280 54v58" stroke="#d8dee4"/>
+<text x="70" y="87" text-anchor="middle" fill="#6f42c1" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">63</text>
+<text x="70" y="109" text-anchor="middle" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="13">Original repos</text>
+<text x="210" y="87" text-anchor="middle" fill="#6f42c1" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">98</text>
+<text x="210" y="109" text-anchor="middle" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="13">Stars earned</text>
+<text x="350" y="87" text-anchor="middle" fill="#6f42c1" font-family="Arial, Helvetica, sans-serif" font-size="28" font-weight="700">96</text>
+<text x="350" y="109" text-anchor="middle" fill="#57606a" font-family="Arial, Helvetica, sans-serif" font-size="13">Followers</text>
+</svg>
