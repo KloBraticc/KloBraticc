@@ -5,8 +5,6 @@
   <img src="assets/hero-light.svg" width="100%" alt="KloBratic"/>
 </picture>
 
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/>
   <img src="assets/btn-github-light.svg" width="56" alt="GitHub"/>
@@ -18,7 +16,7 @@
   <img src="assets/btn-website-light.svg" width="56" alt="Website"/>
 </picture></a>
 
-<br/><br/>
+
 
 <!-- PROFILE:START -->
 <picture>
@@ -26,14 +24,10 @@
   <img src="assets/activity-light.svg" width="100%" alt="GitHub activity"/>
 </picture>
 
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"/>
   <img src="assets/streak-light.svg" width="100%" alt="Streak"/>
 </picture>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg"/>
@@ -41,7 +35,7 @@
 </picture>
 <!-- PROFILE:END -->
 
-<br/><br/>
+
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"/>

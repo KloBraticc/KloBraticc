@@ -208,7 +208,7 @@ def blob_path(cx, cy, r, seed_shift=0):
 
 def hero(c, avatar_b64):
     ax, ay = 160, 168
-    parts = ['<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="330" viewBox="0 0 840 330">']
+    parts = ['<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="300" viewBox="0 0 840 300">']
     parts.append(f"""<style>
 .ttl{{opacity:0;transform:translateY(16px);animation:up .9s cubic-bezier(.05,.7,.1,1) .05s both}}
 .t1,.t2,.t3,.t4{{opacity:0;animation:cycle 16s linear infinite}}
@@ -225,9 +225,9 @@ def hero(c, avatar_b64):
 .c1{{animation-delay:.5s}}.c2{{animation-delay:.62s}}.c3{{animation-delay:.74s}}
 @media (prefers-reduced-motion:reduce){{.ttl,.t1,.t2,.t3,.row{{animation:none;opacity:1;transform:none}}.b1,.b2,.b3{{animation:none}}}}
 </style>""")
-    parts.append('<clipPath id="cardclip"><rect width="840" height="330" rx="30"/></clipPath>')
+    parts.append('<clipPath id="cardclip"><rect width="840" height="300" rx="30"/></clipPath>')
     parts.append('<g clip-path="url(#cardclip)">')
-    parts.append(f'<rect width="840" height="330" rx="30" fill="{c["card"]}"/>')
+    parts.append(f'<rect width="840" height="300" rx="30" fill="{c["card"]}"/>')
     parts.append(f'<path class="b1" d="{blob_path(810, 40, 150)}" fill="{c["primary_dim"]}" opacity="0.55"/>')
     parts.append(f'<path class="b2" d="{blob_path(840, 320, 110, 2)}" fill="{c["primary"]}" opacity="0.22"/>')
     parts.append(f'<path class="b3" d="{blob_path(700, 300, 60, 4)}" fill="{c["accent"]}" opacity="0.18"/>')
@@ -414,7 +414,7 @@ def pill_btn(x, y, w, h, fill, label, txt_color, fs=17, stroke=None):
 def projects_card(c, pinned):
     rows = [(n, de, l, LANG_COLORS.get(l, BAR_FALLBACK[i % len(BAR_FALLBACK)]))
             for i, (n, de, l, *_rest) in enumerate(pinned)]
-    H = 48 + len(rows) * 100 + 24
+    H = 24 + len(rows) * 100 + 12
     parts = [f'<svg xmlns="http://www.w3.org/2000/svg" width="840" height="{H}" viewBox="0 0 840 {H}">']
     parts.append(f"""<style>
 .pr{{opacity:0;transform:translateY(14px);animation:up .9s cubic-bezier(.05,.7,.1,1) both}}
@@ -562,14 +562,10 @@ def update_readme():
   <img src="assets/activity-light.svg" width="100%" alt="GitHub activity"/>
 </picture>
 
-<br/><br/>
-
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"/>
   <img src="assets/streak-light.svg" width="100%" alt="Streak"/>
 </picture>
-
-<br/><br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg"/>
