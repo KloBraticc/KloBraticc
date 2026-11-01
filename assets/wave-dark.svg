@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="120" viewBox="0 0 840 120" preserveAspectRatio="none"><style>
+.wv{animation:wmove linear infinite}
+@keyframes wmove{from{transform:translateX(0)}to{transform:translateX(-420px)}}
+@media (prefers-reduced-motion:reduce){.wv{animation:none}}
+</style><defs><linearGradient id="wg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F378B"/><stop offset="1" stop-color="#D0BCFF"/></linearGradient></defs><clipPath id="wclip"><rect width="840" height="120" rx="30"/></clipPath><g clip-path="url(#wclip)"><rect width="840" height="120" fill="#1C1B20"/><g opacity="0.35"><path class="wv" style="animation-duration:11s" d="M0 60 Q 105 20 210 60 T 420 60 T 630 60 T 840 60 T 1050 60 T 1260 60 V 120 H 0 Z" fill="url(#wg)"/></g><g opacity="0.7"><path class="wv" style="animation-duration:7.5s" d="M0 60 Q 105 20 210 60 T 420 60 T 630 60 T 840 60 T 1050 60 T 1260 60 V 120 H 0 Z" fill="url(#wg)"/></g></g></svg>
