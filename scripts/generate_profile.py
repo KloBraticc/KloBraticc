@@ -105,15 +105,15 @@ def fetch_avatar_b64():
 def fetch_pinned():
     if not TOKEN:
         return PINNED_FALLBACK
-    q = """
-    query { viewer {
-      pinnedItems(first: 6, types: REPOSITORY) {
-        nodes { ... on Repository { name description primaryLanguage { name } url stargazerCount } }
-      }
-    } }
+    q = f"""
+    query {{ user(login: "{USER}") {{
+      pinnedItems(first: 6, types: REPOSITORY) {{
+        nodes {{ ... on Repository {{ name description primaryLanguage {{ name }} url stargazerCount }} }}
+      }}
+    }} }}
     """
     try:
-        nodes = graphql(q, TOKEN)["data"]["viewer"]["pinnedItems"]["nodes"]
+        nodes = graphql(q, TOKEN)["data"]["user"]["pinnedItems"]["nodes"]
         out = []
         for n in nodes:
             lang = (n.get("primaryLanguage") or {}).get("name") or "Code"
@@ -162,12 +162,12 @@ def fetch_data():
     got = False
     if TOKEN:
         q = """
-        query { viewer {
-          contributionsCollection { contributionCalendar { totalContributions weeks { contributionDays { date contributionCount } } } }
-        } }
+        query { user(login: "{USER}") {{
+          contributionsCollection {{ contributionCalendar {{ totalContributions weeks {{ contributionDays {{ date contributionCount }} }} }} }} }}
+        }}
         """
         try:
-            cc = graphql(q, TOKEN)["data"]["viewer"]["contributionsCollection"]["contributionCalendar"]
+            cc = graphql(q, TOKEN)["data"]["user"]["contributionsCollection"]["contributionCalendar"]
             d["contribs"] = cc["totalContributions"]
             days = []
             for w in cc["weeks"]:
