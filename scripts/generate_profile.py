@@ -161,11 +161,9 @@ def fetch_data():
 
     got = False
     if TOKEN:
-        q = """
-        query { user(login: "{USER}") {{
-          contributionsCollection {{ contributionCalendar {{ totalContributions weeks {{ contributionDays {{ date contributionCount }} }} }} }} }}
-        }}
-        """
+        q = ("query { user(login: \"" + USER + "\") {"
+             " contributionsCollection { contributionCalendar { totalContributions"
+             " weeks { contributionDays { date contributionCount } } } } } }")
         try:
             cc = graphql(q, TOKEN)["data"]["user"]["contributionsCollection"]["contributionCalendar"]
             d["contribs"] = cc["totalContributions"]
@@ -275,10 +273,11 @@ def fmt(n):
     return f"{n:,}"
 
 
-def heat_color(count, c):
+def heat_color(count, c, mx=1):
     if count <= 0:
         return c["heat_empty"], c["heat_txt"][0]
-    idx = min(4, (1 if count <= 2 else 2 if count <= 5 else 3 if count <= 8 else 4))
+    q = 0 if mx <= 4 else (count / mx)
+    idx = 1 if q <= 0.25 else 2 if q <= 0.5 else 3 if q <= 0.75 else 4
     return c["heat"][idx], c["heat_txt"][idx]
 
 
@@ -334,12 +333,13 @@ def activity_card(c, d):
     gx = 484
     for col in range(7):
         parts.append(f'<text x="{gx + col*44 + 16}" y="140" font-family="{F}" font-size="12" fill="{c["muted"]}" text-anchor="middle">{letters[col]}</text>')
+    mx = max((c for _, c in real if c > 0), default=1)
     for i, (dt, cnt) in enumerate(real):
         col = i % 7
         row = i // 7
         x = gx + col * 44
         y = 150 + row * 52
-        fill, txt = heat_color(cnt, c)
+        fill, txt = heat_color(cnt, c, mx)
         parts.append(f'<rect x="{x}" y="{y}" width="38" height="46" rx="12" fill="{fill}"/>')
         parts.append(f'<text x="{x+19}" y="{y+29}" font-family="{F}" font-size="14" font-weight="600" fill="{txt if cnt >= 0 else c["muted"]}" text-anchor="middle">{dt.day}</text>')
         if dt == today:
