@@ -7,10 +7,6 @@
 
 <br/>
 
- <a href="https://voidstrapp.pages.dev"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-website-dark.svg"/>
-  <img src="assets/btn-website-light.svg" width="56" alt="Website"/>
-</picture></a>
 
 <!-- PROFILE:START -->
 <picture>
