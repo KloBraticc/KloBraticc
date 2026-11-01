@@ -48,6 +48,9 @@
   <img src="assets/wave-light.svg" width="100%" alt=""/>
 </picture>
 
-<a href="https://metawka.github.io/expressive-profile/"><b>inspiration from expressive profile (mally)</b></a>
+<a href="https://metawka.github.io/expressive-profile/"><picture>
+  <source media="(prefers-color-scheme: dark)" srcset="assets/credit-dark.svg"/>
+  <img src="assets/credit-light.svg" width="380" alt="inspiration from expressive profile (mally)"/>
+</picture></a>
 
 </div>

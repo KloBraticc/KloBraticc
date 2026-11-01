@@ -597,6 +597,10 @@ def main():
             f.write(projects_card(c, pinned))
         with open(os.path.join(ASSETS, f"wave-{mode}.svg"), "w", encoding="utf-8") as f:
             f.write(wave_footer(c))
+        with open(os.path.join(ASSETS, f"credit-{mode}.svg"), "w", encoding="utf-8") as f:
+            f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="380" height="30" viewBox="0 0 380 30">'
+                    f'<text x="190" y="20" font-family="{F}" font-size="14" fill="{c["muted"]}" '
+                    f'text-anchor="middle">inspiration from expressive profile (mally)</text></svg>')
         for label, kind in [("github", "gh"), ("youtube", "yt"), ("website", "web")]:
             with open(os.path.join(ASSETS, f"btn-{label}-{mode}.svg"), "w", encoding="utf-8") as f:
                 f.write(social_btn(kind, c))
