@@ -207,7 +207,7 @@ def blob_path(cx, cy, r, seed_shift=0):
 
 
 def hero(c, avatar_b64):
-    ax, ay = 160, 168
+    ax, ay = 160, 150
     parts = ['<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="840" height="300" viewBox="0 0 840 300">']
     parts.append(f"""<style>
 .ttl{{opacity:0;transform:translateY(16px);animation:up .9s cubic-bezier(.05,.7,.1,1) .05s both}}
@@ -233,22 +233,22 @@ def hero(c, avatar_b64):
     parts.append(f'<path class="b3" d="{blob_path(700, 300, 60, 4)}" fill="{c["accent"]}" opacity="0.18"/>')
     parts.append(avatar_frame(c, ax, ay, avatar_b64))
     tx = 300
-    parts.append(f'<text class="ttl" x="{tx}" y="130" font-family="{F}" font-size="62" font-weight="800" fill="{c["on_bg"]}">KloBratic</text>')
+    parts.append(f'<text class="ttl" x="{tx}" y="116" font-family="{F}" font-size="62" font-weight="800" fill="{c["on_bg"]}">KloBratic</text>')
     for i, tag in enumerate(TAGLINES):
-        parts.append(f'<text class="t{i+1}" x="{tx}" y="170" font-family="{F}" font-size="20" fill="{c["on_var"]}">{esc(tag)}</text>')
+        parts.append(f'<text class="t{i+1}" x="{tx}" y="156" font-family="{F}" font-size="20" fill="{c["on_var"]}">{esc(tag)}</text>')
     x = tx
     GRASS = ('<path d="M2.5 13 C1.5 9 2.5 5.5 5.5 3 C4.5 7 4.5 10 5.5 13 Z" fill="#7CC24B"/>'
              '<path d="M5 13 C5 7 7 3.5 10.5 1.5 C8.5 6 8 10 8.5 13 Z" fill="#8FD14F"/>'
              '<path d="M8.5 13 C9.5 9 11.5 6.5 14 5.5 C12.5 9 12 11 11.5 13 Z" fill="#6BB83E"/>')
     for i, (ic, label) in enumerate(CHIPS):
         if ic == "grass":
-            icon = f'<g transform="translate({x + 16:.0f},227) scale(1.05)">{GRASS}</g>'
+            icon = f'<g transform="translate({x + 16:.0f},213) scale(1.05)">{GRASS}</g>'
         else:
-            icon = f'<g transform="translate({x + 16:.0f},226.5) scale(0.625)"><path d="{ICONS[ic]}" fill="{c["primary"]}"/></g>'
+            icon = f'<g transform="translate({x + 16:.0f},212.5) scale(0.625)"><path d="{ICONS[ic]}" fill="{c["primary"]}"/></g>'
         w = 16 + 15 + 7 + len(label) * 8.4 + 16
-        parts.append(f'<g class="row c{i+1}"><rect x="{x:.0f}" y="212" width="{w:.0f}" height="44" rx="22" fill="{c["surface2"]}"/>'
+        parts.append(f'<g class="row c{i+1}"><rect x="{x:.0f}" y="198" width="{w:.0f}" height="44" rx="22" fill="{c["surface2"]}"/>'
                      f'{icon}'
-                     f'<text x="{x + 38:.0f}" y="240" font-family="{F}" font-size="15" font-weight="600" fill="{c["on_var"]}">{esc(label)}</text></g>')
+                     f'<text x="{x + 38:.0f}" y="226" font-family="{F}" font-size="15" font-weight="600" fill="{c["on_var"]}">{esc(label)}</text></g>')
         x += w + 10
     parts.append("</g>")
     parts.append("</svg>")
