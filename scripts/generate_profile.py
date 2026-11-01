@@ -255,25 +255,6 @@ def hero(c, avatar_b64):
     return "".join(parts)
 
 
-def social_btn(kind, c):
-    S = 56
-    glyph = {
-        "gh": f'<g transform="scale(1.08)"><path fill="{c["on_bg"]}" d="{GITHUB_24}"/></g>',
-        "yt": f'<g transform="scale(1.08)"><path fill="{c["on_bg"]}" fill-rule="evenodd" d="{YT_24}"/></g>',
-        "web": (f'<g transform="scale(1.08)" fill="none" stroke="{c["on_bg"]}" stroke-width="2" stroke-linecap="round">'
-                f'<circle cx="12" cy="12" r="8.6"/><ellipse cx="12" cy="12" rx="3.9" ry="8.6"/>'
-                f'<path d="M3.4 12h17.2"/></g>'),
-    }[kind]
-    return (f'<svg xmlns="http://www.w3.org/2000/svg" width="{S}" height="{S}" viewBox="0 0 {S} {S}">'
-            f'<style>.b{{opacity:0;transform-box:fill-box;transform-origin:center;'
-            f'animation:pop .6s cubic-bezier(.34,1.56,.64,1) both}}'
-            f'@keyframes pop{{from{{opacity:0;transform:scale(.5)}}to{{opacity:1;transform:scale(1)}}}}'
-            f'@media (prefers-reduced-motion:reduce){{.b{{animation:none;opacity:1;transform:none}}}}</style>'
-            f'<circle cx="{S/2}" cy="{S/2}" r="{S/2}" fill="{c["surface"]}"/>'
-            f'<g transform="translate({(S-26)/2},{(S-26)/2})"><g class="b">{glyph}</g></g>'
-            f'</svg>')
-
-
 GITHUB_24 = "M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"
 YT_24 = "M23.498 6.186a3.016 3.016 0 0 0-2.122-2.136C19.505 3.545 12 3.545 12 3.545s-7.505 0-9.377.505A3.017 3.017 0 0 0 .502 6.186C0 8.07 0 12 0 12s0 3.93.502 5.814a3.016 3.016 0 0 0 2.122 2.136c1.871.505 9.376.505 9.376.505s7.505 0 9.377-.505a3.015 3.015 0 0 0 2.122-2.136C24 15.93 24 12 24 12s0-3.93-.502-5.814zM9.545 15.568V8.432L15.818 12l-6.273 3.568z"
 
@@ -601,13 +582,12 @@ def main():
             f.write(f'<svg xmlns="http://www.w3.org/2000/svg" width="380" height="30" viewBox="0 0 380 30">'
                     f'<text x="190" y="20" font-family="{F}" font-size="14" fill="{c["muted"]}" '
                     f'text-anchor="middle">inspiration from expressive profile (mally)</text></svg>')
-        for label, kind in [("github", "gh"), ("youtube", "yt"), ("website", "web")]:
-            with open(os.path.join(ASSETS, f"btn-{label}-{mode}.svg"), "w", encoding="utf-8") as f:
-                f.write(social_btn(kind, c))
     update_readme()
     for old in ("stats-dark.svg", "stats-light.svg", "pill-github-dark.svg", "pill-github-light.svg",
-                "pill-youtube-dark.svg", "pill-youtube-light.svg",
-                "pill-website-dark.svg", "pill-website-light.svg"):
+                "pill-youtube-dark.svg", "pill-youtube-light.svg", "pill-website-dark.svg",
+                "pill-website-light.svg", "btn-github-dark.svg", "btn-github-light.svg",
+                "btn-youtube-dark.svg", "btn-youtube-light.svg", "btn-website-dark.svg",
+                "btn-website-light.svg"):
         p = os.path.join(ASSETS, old)
         if os.path.exists(p):
             os.remove(p)

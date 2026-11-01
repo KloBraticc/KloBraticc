@@ -7,18 +7,10 @@
 
 <br/>
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/>
-  <img src="assets/btn-github-light.svg" width="56" alt="GitHub"/>
-</picture> <a href="https://youtube.com/@ThisBratic"><picture>
-  <source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"/>
-  <img src="assets/btn-youtube-light.svg" width="56" alt="YouTube"/>
-</picture></a> <a href="https://voidstrapp.pages.dev"><picture>
+ <a href="https://voidstrapp.pages.dev"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/btn-website-dark.svg"/>
   <img src="assets/btn-website-light.svg" width="56" alt="Website"/>
 </picture></a>
-
-
 
 <!-- PROFILE:START -->
 <picture>
@@ -40,8 +32,6 @@
   <img src="assets/projects-light.svg" width="100%" alt="Projects"/>
 </picture>
 <!-- PROFILE:END -->
-
-
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/wave-dark.svg"/>
