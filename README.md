@@ -7,10 +7,10 @@
 
 <br/><br/>
 
-<a href="https://github.com/KloBraticc"><picture>
+<picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/>
   <img src="assets/btn-github-light.svg" width="56" alt="GitHub"/>
-</picture></a> <a href="https://youtube.com/@ThisBratic"><picture>
+</picture> <a href="https://youtube.com/@ThisBratic"><picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/btn-youtube-dark.svg"/>
   <img src="assets/btn-youtube-light.svg" width="56" alt="YouTube"/>
 </picture></a> <a href="https://voidstrapp.pages.dev"><picture>
