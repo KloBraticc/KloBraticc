@@ -5,6 +5,8 @@
   <img src="assets/hero-light.svg" width="100%" alt="KloBratic"/>
 </picture>
 
+<br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/btn-github-dark.svg"/>
   <img src="assets/btn-github-light.svg" width="56" alt="GitHub"/>
@@ -24,10 +26,14 @@
   <img src="assets/activity-light.svg" width="100%" alt="GitHub activity"/>
 </picture>
 
+<br/>
+
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/streak-dark.svg"/>
   <img src="assets/streak-light.svg" width="100%" alt="Streak"/>
 </picture>
+
+<br/>
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="assets/projects-dark.svg"/>
